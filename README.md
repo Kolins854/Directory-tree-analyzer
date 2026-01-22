@@ -1,9 +1,9 @@
-📁 Directory Tree Analyzer
+DIRECTORY TREE ANALYZER
 
 A Python CLI tool that analyzes any folder on your computer.
 It recursively scans directories, counts files and folders, calculates total size, groups files by extension, and shows the top 5 largest files.
 
-🔹 Features
+FEATURES
 
 Recursively scan any folder and subfolders
 
@@ -21,7 +21,7 @@ Handles permission errors safely
 
 Clear and formatted terminal output
 
-💻 Installation
+INSTALLATION
 
 Make sure you have Python 3.x installed. You can check by running:
 
@@ -42,7 +42,7 @@ Navigate to the project folder:
 
 cd directory-tree-analyzer
 
-🚀 Usage
+USAGE
 
 Run the program:
 
@@ -61,7 +61,7 @@ Enter the directory to analyze: C:\Users\YourName\Documents\TestFolder
 
 View the analysis results in the terminal.
 
-📊 Example Output
+EXAMPLE OUTPUT;
 Analysis Complete:
 Total folders: 10
 Total files: 42
@@ -78,7 +78,7 @@ Top 5 largest files:
 /Users/YourName/Documents/TestFolder/archive.zip (30.00 MB)
 ...
 
-🛠️ How It Works
+ HOW IT WORKS
 
 Uses Python’s os.walk() to traverse directories recursively
 
@@ -90,7 +90,7 @@ Finds the largest files by sorting a list of (size, file_path) tuples
 
 Formats file sizes to human-readable units
 
-⚠️ Notes
+NOTES
 
 Hidden files (starting with .) are skipped by default
 
@@ -98,7 +98,7 @@ Permission errors are caught, so the script won’t crash
 
 Works on Windows, Mac, and Linux
 
-📂 Folder Structure
+FOLDER STRUCTURE
 directory-tree-analyzer/
 ├── directory_analyzer.py
 ├── README.md
